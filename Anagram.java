@@ -13,7 +13,7 @@ if(exm1.length()==exm2.length()) {
 	char[] resl2=exm2.toCharArray();
 Arrays.sort(resl1);
 Arrays.sort(resl2);
-if(resl1.equals(resl2)) 
+if(Arrays.equals(resl1, resl2)) 
 	System.out.println("Given string is Anagram");
 }
 else {
